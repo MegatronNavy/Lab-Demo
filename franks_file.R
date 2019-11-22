@@ -1,6 +1,6 @@
 library(tidyverse)
 
-tibble(x = rnorm(100), y = rnorm(100)) %>%
+tibble(x = rnorm(1000), y = rnorm(1000)) %>%
     ggplot() +
     geom_line(aes(x=x, y=y))
                            
